@@ -1,0 +1,745 @@
+<levels>
+	<level1>
+		<entity number = "1" px="4" pz="2" rx="0" ry="0"/>
+		<entity number = "2" px="12" pz="8" rx="0" ry="180"/>
+		<entity number = "3" px="16" pz="4" rx="90" ry="0"/>
+		<entity number = "5" px="10" pz="4" rx="90" ry="-90"/>
+		<entity number = "7" px="17" pz="7" rx="0" ry="0"/>
+		<entity number = "8" px="3" pz="5" rx="90" ry="90"/>
+		<entity number = "9" px="3" pz="9" rx="0" ry="180"/>
+		<entity number = "10" px="13" pz="3" rx="90" ry="180"/>
+	</level1>
+	<level2>
+		<entity number = "2" px="14" pz="4" rx="90" ry="180"/>
+		<entity number = "3" px="12" pz="2" rx="90" ry="180"/>
+		<entity number = "4" px="10" pz="6" rx="90" ry="180"/>
+		<entity number = "5" px="12" pz="8" rx="90" ry="0"/>
+		<entity number = "7" px="1" pz="7" rx="0" ry="90"/>
+		<entity number = "8" px="19" pz="3" rx="0" ry="-90"/>
+		<entity number = "9" px="3" pz="3" rx="90" ry="180"/>
+		<entity number = "10" px="5" pz="9" rx="0" ry="180"/>
+	</level2>
+	<level3>
+		<entity number = "2" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "3" px="14" pz="6" rx="0" ry="0"/>
+		<entity number = "4" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "6" px="14" pz="8" rx="90" ry="0"/>
+		<entity number = "7" px="5" pz="5" rx="0" ry="0"/>
+		<entity number = "8" px="9" pz="3" rx="90" ry="180"/>
+		<entity number = "9" px="11" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="17" pz="1" rx="0" ry="0"/>
+	</level3>
+	<level4>
+		<entity number = "1" px="8" pz="4" rx="0" ry="180"/>
+		<entity number = "2" px="16" pz="8" rx="90" ry="0"/>
+		<entity number = "3" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "5" px="2" pz="4" rx="90" ry="270"/>
+		<entity number = "7" px="15" pz="5" rx="90" ry="0"/>
+		<entity number = "8" px="3" pz="5" rx="0" ry="90"/>
+		<entity number = "9" px="7" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="11" pz="7" rx="0" ry="0"/>
+	</level4>
+	<level5>
+		<entity number = "1" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "2" px="14" pz="4" rx="0" ry="0"/>
+		<entity number = "3" px="12" pz="2" rx="90" ry="180"/>
+		<entity number = "4" px="12" pz="8" rx="90" ry="0"/> 
+		<entity number = "5" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "6" px="16" pz="8" rx="0" ry="0"/>
+		<entity number = "7" px="9" pz="5" rx="90" ry="180"/>
+		<entity number = "9" px="19" pz="3" rx="0" ry="270"/>
+	</level5>
+	<level6>
+		<entity number = "2" px="12" pz="4" rx="90" ry="270"/>
+		<entity number = "3" px="8" pz="4" rx="90" ry="90"/>
+		<entity number = "4" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "7" px="17" pz="7" rx="0" ry="0"/>
+		<entity number = "8" px="3" pz="5" rx="90" ry="180"/>
+		<entity number = "9" px="7" pz="5" rx="0" ry="270"/>
+		<entity number = "10" px="3" pz="1" rx="0" ry="0"/>
+	</level6>
+	<level7>
+		<entity number = "1" px="12" pz="2" rx="90" ry="180"/>
+		<entity number = "2" px="8" pz="8" rx="0" ry="180"/>
+		<entity number = "3" px="6" pz="6" rx="0" ry="0"/>
+		<entity number = "4" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "5" px="2" pz="6" rx="0" ry="90"/>
+		<entity number = "6" px="4" pz="2" rx="0" ry="0"/>
+		<entity number = "7" px="11" pz="3" rx="90" ry="180"/>
+	</level7>
+	<level8>	
+		<entity number = "2" px="2" pz="4" rx="90" ry="-90"/>
+		<entity number = "3" px="10" pz="6" rx="90" ry="-90"/>
+		<entity number = "5" px="18" pz="6" rx="0" ry="-90"/>
+		<entity number = "6" px="10" pz="2" rx="0" ry="0"/>
+		<entity number = "8" px="3" pz="9" rx="90" ry="0"/>
+		<entity number = "9" px="5" pz="3" rx="0" ry="270"/>
+		<entity number = "10" px="17" pz="1" rx="90" ry="180"/>
+	</level8>
+	<level9>
+		<entity number = "1" px="12" pz="8" rx="90" ry="0"/>
+		<entity number = "2" px="8" pz="2" rx="0" ry="0"/> 
+		<entity number = "3" px="14" pz="4" rx="0" ry="0"/>
+		<entity number = "4" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "5" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "6" px="14" pz="6" rx="90" ry="0"/>
+		<entity number = "9" px="7" pz="7" rx="90" ry="-90"/>
+	</level9>
+	<level10>	
+		<entity number = "1" px="6" pz="4" rx="0" ry="180"/>
+		<entity number = "2" px="6" pz="2" rx="90" ry="180"/>
+		<entity number = "4" px="12" pz="4" rx="90" ry="-90"/>
+		<entity number = "7" px="1" pz="3" rx="90" ry="-90"/>
+		<entity number = "8" px="17" pz="7" rx="90" ry="0"/>
+		<entity number = "9" px="15" pz="3" rx="0" ry="-90"/>
+		<entity number = "10" px="19" pz="3" rx="0" ry="-90"/>
+	</level10>
+	<level11>
+		<entity number = "1" px="4" pz="8" rx="0" ry="180"/>
+		<entity number = "3" px="8" pz="6" rx="90" ry="90"/>
+		<entity number = "6" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "7" px="19" pz="5" rx="90" ry="90"/>
+		<entity number = "8" px="5" pz="5" rx="90" ry="180"/>
+		<entity number = "9" px="11" pz="7" rx="90" ry="-90"/>
+		<entity number = "10" px="15" pz="5" rx="90" ry="90"/>
+	</level11>
+	<level12>
+		<entity number = "1" px="6" pz="4" rx="0" ry="180"/>
+		<entity number = "2" px="6" pz="8" rx="0" ry="180"/>
+		<entity number = "3" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "6" px="14" pz="6" rx="90" ry="-90"/>
+		<entity number = "7" px="11" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="11" pz="7" rx="90" ry="90"/>
+		<entity number = "9" px="17" pz="7" rx="0" ry="-90"/>
+	</level12>	
+	<level13>
+		<entity number = "1" px="8" pz="8" rx="90" ry="0"/>
+		<entity number = "2" px="16" pz="8" rx="0" ry="180"/>
+		<entity number = "3" px="10" pz="2" rx="90" ry="180"/>
+		<entity number = "4" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "5" px="10" pz="6" rx="90" ry="0"/>
+		<entity number = "6" px="12" pz="4" rx="0" ry="-180"/>
+		<entity number = "10" px="15" pz="3" rx="0" ry="180"/> 
+	</level13>		
+	<level14>
+		<entity number = "2" px="6" pz="2" rx="90" ry="0"/>
+		<entity number = "3" px="10" pz="8" rx="90" ry="0"/>
+		<entity number = "6" px="8" pz="6" rx="0" ry="-180"/> 
+		<entity number = "7" px="3" pz="9" rx="90" ry="0"/>
+		<entity number = "8" px="11" pz="5" rx="90" ry="0"/>
+		<entity number = "10" px="19" pz="7" rx="0" ry="-90"/> 
+	</level14>
+	<level15>
+		<entity number = "1" px="4" pz="8" rx="0" ry="180"/>
+		<entity number = "2" px="6" pz="2" rx="0" ry="0"/>
+		<entity number = "4" px="2" pz="4" rx="90" ry="-90"/>
+		<entity number = "5" px="12" pz="8" rx="90" ry="0"/>
+		<entity number = "6" px="6" pz="6" rx="90" ry="180"/>
+		<entity number = "9" px="17" pz="5" rx="0" ry="180"/>
+		<entity number = "10" px="11" pz="5" rx="90" ry="90"/>
+	</level15>
+	<level16>
+		<entity number = "2" px="2" pz="4" rx="90" ry="-90"/>
+		<entity number = "3" px="16" pz="6" rx="0" ry="90"/>
+		<entity number = "4" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "6" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "7" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "9" px="9" pz="5" rx="90" ry="-90"/>
+		<entity number = "10" px="11" pz="9" rx="0" ry="180"/>
+	</level16>
+	<level17>
+		<entity number = "1" px="14" pz="8" rx="90" ry="0"/>
+		<entity number = "3" px="6" pz="8" rx="0" ry="180"/>
+		<entity number = "4" px="2" pz="6" rx="0" ry="90"/>
+		<entity number = "5" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="5" pz="5" rx="90" ry="90"/>
+		<entity number = "10" px="11" pz="1" rx="90" ry="180"/>
+	</level17>
+	<level18>
+		<entity number = "2" px="14" pz="8" rx="0" ry="180"/>
+		<entity number = "4" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "6" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "7" px="5" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="9" pz="7" rx="90" ry="180"/>
+		<entity number = "9" px="11" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="17" pz="1" rx="90" ry="180"/>
+	</level18>
+	<level19>
+		<entity number = "2" px="8" pz="2" rx="90" ry="180"/>
+		<entity number = "3" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="3" pz="9" rx="90" ry="0"/>
+		<entity number = "8" px="13" pz="9" rx="90" ry="0"/>
+		<entity number = "9" px="17" pz="5" rx="0" ry="-90"/>
+		<entity number = "10" px="9" pz="7" rx="0" ry="0"/>
+	</level19>
+	<level20>
+		<entity number = "1" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "6" px="12" pz="4" rx="90" ry="90"/>
+		<entity number = "7" px="5" pz="5" rx="0" ry="90"/>
+		<entity number = "8" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "9" px="1" pz="7" rx="90" ry="-90"/>
+		<entity number = "10" px="11" pz="7" rx="90" ry="-90"/>
+	</level20>
+	<level21>
+		<entity number = "1" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="14" pz="8" rx="90" ry="0"/>
+		<entity number = "7" px="5" pz="5" rx="90" ry="-90"/>
+		<entity number = "8" px="13" pz="1" rx="90" ry="180"/>
+		<entity number = "9" px="17" pz="7" rx="90" ry="180"/>
+		<entity number = "10" px="17" pz="3" rx="0" ry="180"/>
+	</level21>
+	<level22>
+		<entity number = "1" px="14" pz="6" rx="0" ry="0"/>
+		<entity number = "2" px="14" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="16" pz="8" rx="90" ry="0"/>
+		<entity number = "7" px="3" pz="5" rx="90" ry="0"/>
+		<entity number = "8" px="3" pz="1" rx="0" ry="0"/>
+		<entity number = "9" px="7" pz="3" rx="90" ry="-90"/>
+	</level22>
+	<level23>
+		<entity number = "1" px="12" pz="2" rx="90" ry="180"/>
+		<entity number = "2" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "3" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "4" px="14" pz="8" rx="0" ry="180"/>
+		<entity number = "5" px="8" pz="4" rx="0" ry="0"/>
+		<entity number = "8" px="13" pz="5" rx="90" ry="-90"/>
+	</level23>
+	<level24>
+		<entity number = "1" px="8" pz="8" rx="90" ry="0"/>
+		<entity number = "2" px="14" pz="2" rx="0" ry="0"/>
+		<entity number = "5" px="8" pz="4" rx="90" ry="90"/>
+		<entity number = "6" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "8" px="11" pz="5" rx="90" ry="-90"/>
+		<entity number = "10" px="17" pz="7" rx="90" ry="-90"/>
+	</level24>
+	<level25>
+		<entity number = "1" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "3" px="4" pz="2" rx="0" ry="0"/>
+		<entity number = "4" px="10" pz="2" rx="90" ry="0"/>
+		<entity number = "6" px="14" pz="2" rx="0" ry="0"/>
+		<entity number = "7" px="1" pz="7" rx="0" ry="90"/>
+		<entity number = "9" px="11" pz="7" rx="0" ry="270"/>
+	</level25>
+	<level26>
+		<entity number = "2" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="2" pz="6" rx="90" ry="-90"/>
+		<entity number = "6" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "7" px="17" pz="9" rx="90" ry="0"/>
+		<entity number = "9" px="13" pz="3" rx="0" ry="270"/>
+		<entity number = "10" px="5" pz="7" rx="0" ry="0"/>
+	</level26>
+	<level27>
+		<entity number = "1" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "3" px="10" pz="4" rx="0" ry="-90"/>
+		<entity number = "4" px="14" pz="4" rx="90" ry="-90"/>
+		<entity number = "6" px="4" pz="8" rx="0" ry="180"/>
+		<entity number = "7" px="3" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="17" pz="3" rx="0" ry="270"/>
+	</level27>
+	<level28>
+		<entity number = "1" px="18" pz="4" rx="0" ry="-90"/>
+		<entity number = "4" px="8" pz="2" rx="90" ry="0"/>
+		<entity number = "6" px="6" pz="6" rx="0" ry="0"/>
+		<entity number = "8" px="3" pz="1" rx="90" ry="180"/>
+		<entity number = "9" px="11" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="13" pz="7" rx="0" ry="-90"/>
+	</level28>
+	<level29>
+		<entity number = "3" px="10" pz="4" rx="0" ry="-90"/>
+		<entity number = "4" px="10" pz="8" rx="90" ry="0"/>
+		<entity number = "5" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "6" px="8" pz="4" rx="90" ry="-90"/>
+		<entity number = "8" px="15" pz="7" rx="90" ry="180"/>
+		<entity number = "10" px="3" pz="9" rx="90" ry="0"/>
+	</level29>
+	<level30>
+		<entity number = "1" px="10" pz="6" rx="90" ry="-90"/>
+		<entity number = "2" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "3" px="16" pz="8" rx="0" ry="180"/>
+		<entity number = "6" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "7" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="13" pz="3" rx="0" ry="-90"/>
+	</level30>
+	<level31>
+		<entity number = "1" px="16" pz="8" rx="90" ry="0"/>
+		<entity number = "2" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "3" px="8" pz="2" rx="0" ry="0"/>
+		<entity number = "4" px="18" pz="4" rx="0" ry="-90"/>
+		<entity number = "6" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "10" px="15" pz="1" rx="90" ry="180"/>
+	</level31>
+	<level32>
+		<entity number = "1" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "2" px="16" pz="8" rx="90" ry="0"/>
+		<entity number = "3" px="8" pz="8" rx="0" ry="180"/>
+		<entity number = "7" px="7" pz="5" rx="0" ry="90"/>
+		<entity number = "8" px="17" pz="3" rx="0" ry="270"/>
+		<entity number = "9" px="1" pz="3" rx="90" ry="-90"/>
+	</level32>
+	<level33>
+		<entity number = "1" px="10" pz="8" rx="90" ry="0"/>
+		<entity number = "2" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "6" px="18" pz="6" rx="0" ry="-90"/>
+		<entity number = "7" px="9" pz="5" rx="90" ry="-90"/>
+		<entity number = "8" px="5" pz="5" rx="0" ry="180"/>
+		<entity number = "10" px="3" pz="9" rx="0" ry="180"/>
+	</level33>
+	<level34>
+		<entity number = "2" px="16" pz="8" rx="0" ry="180"/>
+		<entity number = "4" px="2" pz="6" rx="90" ry="-90"/>
+		<entity number = "5" px="16" pz="6" rx="90" ry="180"/>
+		<entity number = "8" px="3" pz="1" rx="90" ry="180"/>
+		<entity number = "9" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="7" pz="3" rx="0" ry="180"/>
+	</level34>
+	<level35>
+		<entity number = "1" px="2" pz="6" rx="90" ry="-90"/>
+		<entity number = "4" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="11" pz="7" rx="90" ry="90"/>
+		<entity number = "9" px="19" pz="7" rx="0" ry="-90"/>
+		<entity number = "10" px="9" pz="3" rx="0" ry="180"/>
+	</level35>
+	<level36>
+		<entity number = "4" px="2" pz="4" rx="90" ry="-90"/>
+		<entity number = "5" px="18" pz="4" rx="90" ry="-90"/>
+		<entity number = "7" px="9" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="11" pz="5" rx="90" ry="-90"/>
+		<entity number = "10" px="3" pz="9" rx="0" ry="180"/>
+	</level36>
+	<level37>
+		<entity number = "5" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "6" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="9" pz="3" rx="90" ry="0"/>
+		<entity number = "8" px="19" pz="3" rx="90" ry="90"/>
+		<entity number = "10" px="11" pz="9" rx="0" ry="180"/>
+	</level37>
+	<level38>
+		<entity number = "2" px="14" pz="4" rx="90" ry="-90"/>
+		<entity number = "3" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "5" px="8" pz="2" rx="90" ry="180"/>
+		<entity number = "6" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "7" px="11" pz="7" rx="0" ry="-90"/>
+	</level38>
+	<level39>
+		<entity number = "1" px="4" pz="8" rx="0" ry="180"/>
+		<entity number = "2" px="12" pz="2" rx="90" ry="180"/>
+		<entity number = "6" px="4" pz="2" rx="0" ry="0"/>
+		<entity number = "8" px="11" pz="7" rx="0" ry="90"/>
+		<entity number = "10" px="19" pz="3" rx="90" ry="90"/>
+	</level39>
+	<level40>
+		<entity number = "3" px="16" pz="8" rx="0" ry="180"/>
+		<entity number = "4" px="4" pz="8" rx="90" ry="0"/>
+		<entity number = "5" px="10" pz="6" rx="90" ry="90"/>
+		<entity number = "8" px="7" pz="7" rx="0" ry="180"/>
+		<entity number = "10" px="13" pz="5" rx="0" ry="90"/>
+	</level40>
+	<level41>
+		<entity number = "2" px="8" pz="2" rx="90" ry="180"/>
+		<entity number = "3" px="18" pz="4" rx="0" ry="-90"/>
+		<entity number = "5" px="14" pz="4" rx="90" ry="-90"/>
+		<entity number = "8" px="7" pz="7" rx="0" ry="90"/>
+		<entity number = "9" px="1" pz="7" rx="90" ry="-90"/>
+	</level41>
+	<level42>
+		<entity number = "1" px="12" pz="4" rx="0" ry="180"/>
+		<entity number = "7" px="3" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="7" pz="3" rx="90" ry="-90"/>
+		<entity number = "9" px="13" pz="7" rx="90" ry="180"/>
+		<entity number = "10" px="17" pz="7" rx="90" ry="-90"/>
+	</level42>
+	<level43>
+		<entity number = "2" px="10" pz="2" rx="0" ry="0"/>
+		<entity number = "3" px="12" pz="6" rx="90" ry="0"/>
+		<entity number = "5" px="10" pz="8" rx="90" ry="0"/>
+		<entity number = "6" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "8" px="3" pz="9" rx="90" ry="0"/>
+	</level43>
+	<level44>
+		<entity number = "4" px="8" pz="8" rx="90" ry="0"/>
+		<entity number = "5" px="16" pz="8" rx="90" ry="0"/>
+		<entity number = "6" px="18" pz="4" rx="0" ry="-90"/>
+		<entity number = "7" px="9" pz="5" rx="0" ry="0"/>
+		<entity number = "10" px="1" pz="7" rx="90" ry="-90"/>
+	</level44>
+	<level45>	
+		<entity number = "1" px="10" pz="8" rx="90" ry="0"/>
+		<entity number = "2" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "3" px="2" pz="6" rx="0" ry="90"/>
+		<entity number = "6" px="8" pz="2" rx="0" ry="0"/>
+		<entity number = "8" px="15" pz="7" rx="0" ry="90"/>
+	</level45>
+	<level46>
+		<entity number = "2" px="16" pz="6" rx="0" ry="90"/>
+		<entity number = "3" px="8" pz="4" rx="0" ry="180"/>
+		<entity number = "4" px="8" pz="8" rx="90" ry="180"/>
+		<entity number = "5" px="12" pz="6" rx="90" ry="90"/>
+	</level46>
+	<level47>
+		<entity number = "1" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "2" px="4" pz="4" rx="0" ry="-90"/>
+		<entity number = "3" px="12" pz="6" rx="0" ry="0"/>
+		<entity number = "4" px="12" pz="2" rx="90" ry="0"/>
+	</level47>
+	<level48>
+		<entity number = "3" px="16" pz="8" rx="90" ry="0"/>
+		<entity number = "4" px="2" pz="6" rx="90" ry="-90"/>
+		<entity number = "6" px="10" pz="4" rx="90" ry="0"/>
+		<entity number = "7" px="19" pz="3" rx="0" ry="-90"/>
+	</level48>
+	<level49>
+		<entity number = "1" px="10" pz="4" rx="90" ry="-90"/>
+		<entity number = "3" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "7" px="17" pz="5" rx="90" ry="-90"/>
+	</level49>
+	<level50>
+		<entity number = "1" px="14" pz="4" rx="90" ry="0"/>
+		<entity number = "4" px="16" pz="8" rx="90" ry="0"/>
+		<entity number = "8" px="7" pz="5" rx="0" ry="180"/>
+		<entity number = "9" px="1" pz="7" rx="90" ry="-90"/>
+	</level50>
+	<level51>
+		<entity number = "1" px="6" pz="8" rx="90" ry="0"/>
+		<entity number = "2" px="16" pz="8" rx="0" ry="180"/>
+		<entity number = "8" px="9" pz="5" rx="90" ry="0"/>
+		<entity number = "9" px="1" pz="7" rx="90" ry="-90"/>
+	</level51>
+	<level52>
+		<entity number = "1" px="12" pz="6" rx="90" ry="0"/>
+		<entity number = "3" px="4" pz="6" rx="90" ry="180"/>
+		<entity number = "7" px="13" pz="3" rx="0" ry="-90"/>
+	</level52>
+	<level53>
+		<entity number = "2" px="12" pz="2" rx="0" ry="0"/>
+		<entity number = "5" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "8" px="9" pz="9" rx="90" ry="0"/>
+		<entity number = "9" px="1" pz="7" rx="90" ry="-90"/>
+	</level53>
+	<level54>
+		<entity number = "3" px="14" pz="4" rx="0" ry="0"/>
+		<entity number = "4" px="8" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "6" px="4" pz="2" rx="0" ry="180"/>
+		<entity number = "7" px="1" pz="7" rx="90" ry="-90"/>
+		<entity number = "9" px="19" pz="7" rx="0" ry="-90"/>
+	</level54>
+	<level55>
+		<entity number = "1" px="4" pz="4" rx="0" ry="-90"/>
+		<entity number = "3" px="8" pz="4" rx="0" ry="-90"/>
+		<entity number = "4" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "5" px="14" pz="2" rx="90" ry="180"/>
+	</level55>
+	<level56>
+		<entity number = "1" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "2" px="2" pz="4" rx="0" ry="90"/>
+		<entity number = "7" px="15" pz="7" rx="0" ry="180"/>
+		<entity number = "9" px="9" pz="3" rx="90" ry="-90"/>
+	</level56>
+	<level57>
+		<entity number = "6" px="6" pz="2" rx="0" ry="0"/>
+		<entity number = "7" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "9" px="11" pz="3" rx="90" ry="-90"/>
+	</level57>
+	<level58>
+		<entity number = "4" px="12" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="11" pz="5" rx="90" ry="90"/>
+		<entity number = "8" px="5" pz="5" rx="90" ry="180"/>
+		<entity number = "10" px="19" pz="3" rx="90" ry="90"/>
+	</level58>
+	<level59>
+		<entity number = "2" px="12" pz="4" rx="90" ry="0"/>
+		<entity number = "3" px="10" pz="2" rx="0" ry="0"/>
+		<entity number = "5" px="10" pz="6" rx="90" ry="0"/>
+	</level59>
+	<level60>
+		<entity number = "2" px="16" pz="6" rx="90" ry="180"/>
+		<entity number = "7" px="9" pz="5" rx="90" ry="90"/>
+		<entity number = "8" px="5" pz="5" rx="0" ry="90"/>
+	</level60>
+	<level61>
+		<entity number = "1" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "8" px="5" pz="5" rx="90" ry="180"/>
+		<entity number = "10" px="11" pz="7" rx="90" ry="0"/>
+	</level61>
+	<level62>
+		<entity number = "2" px="14" pz="4" rx="90" ry="0"/>
+		<entity number = "3" px="10" pz="4" rx="90" ry="-90"/>
+		<entity number = "10" px="5" pz="5" rx="90" ry="180"/>
+	</level62>
+	<level63>
+		<entity number = "8" px="19" pz="3" rx="0" ry="-90"/>
+		<entity number = "9" px="11" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="5" pz="3" rx="90" ry="90"/>
+	</level63>
+	<level64>
+		<entity number = "2" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "7" px="3" pz="7" rx="0" ry="-90"/>
+		<entity number = "8" px="1" pz="3" rx="90" ry="-90"/>
+		<entity number = "10" px="15" pz="5" rx="0" ry="90"/>
+	</level64>
+	<level65>
+		<entity number = "2" px="8" pz="4" rx="90" ry="90"/>
+		<entity number = "6" px="6" pz="8" rx="90" ry="0"/>
+		<entity number = "7" px="1" pz="7" rx="0" ry="90"/>
+		<entity number = "8" px="15" pz="5" rx="0" ry="0"/>
+	</level65>
+	<level66>
+		<entity number = "4" px="6" pz="6" rx="90" ry="0"/>
+		<entity number = "7" px="3" pz="1" rx="0" ry="0"/>
+		<entity number = "9" px="11" pz="5" rx="90" ry="180"/>
+	</level66>
+	<level67>
+		<entity number = "1" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "4" px="6" pz="6" rx="0" ry="0"/>
+		<entity number = "5" px="14" pz="4" rx="90" ry="0"/>
+	</level67>
+	<level68>
+		<entity number = "2" px="10" pz="4" rx="90" ry="0"/>
+		<entity number = "7" px="13" pz="3" rx="90" ry="0"/>
+		<entity number = "10" px="9" pz="1" rx="90" ry="180"/>
+	</level68>
+	<level69>
+		<entity number = "3" px="2" pz="4" rx="90" ry="-90"/>
+		<entity number = "10" px="19" pz="7" rx="90" ry="90"/>
+	</level69>
+	<level70>
+		<entity number = "2" px="12" pz="2" rx="0" ry="0"/>
+		<entity number = "8" px="7" pz="3" rx="90" ry="-90"/>
+		<entity number = "10" px="3" pz="1" rx="90" ry="180"/>
+	</level70>
+	<level71>
+		<entity number = "1" px="14" pz="2" rx="90" ry="180"/>
+		<entity number = "8" px="11" pz="5" rx="90" ry="180"/>
+		<entity number = "9" px="19" pz="3" rx="90" ry="90"/>
+		<entity number = "10" px="15" pz="5" rx="90" ry="-90"/>
+	</level71>
+	<level72>
+		<entity number = "1" px="12" pz="2" rx="90" ry="180"/>
+		<entity number = "5" px="6" pz="6" rx="0" ry="0"/>
+		<entity number = "7" px="17" pz="3" rx="0" ry="90"/>
+	</level72>
+	<level73>
+		<entity number = "2" px="14" pz="2" rx="0" ry="0"/>
+		<entity number = "6" px="6" pz="2" rx="90" ry="180"/>
+		<entity number = "8" px="5" pz="5" rx="90" ry="180"/>
+	</level73>
+	<level74>
+		<entity number = "1" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "2" px="14" pz="2" rx="90" ry="180"/>
+		<entity number = "10" px="7" pz="5" rx="0" ry="-90"/>
+	</level74>
+	<level75>
+		<entity number = "6" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "7" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="3" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="11" pz="5" rx="90" ry="180"/>
+	</level75>
+	<level76>
+		<entity number = "1" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "6" px="4" pz="2" rx="0" ry="180"/>
+		<entity number = "7" px="11" pz="5" rx="0" ry="90"/>
+		<entity number = "9" px="1" pz="7" rx="90" ry="-90"/>
+	</level76>
+	<level77>
+		<entity number = "1" px="2" pz="4" rx="90" ry="-90"/>
+		<entity number = "7" px="7" pz="3" rx="0" ry="180"/>
+		<entity number = "8" px="15" pz="5" rx="90" ry="-90"/>
+		<entity number = "10" px="11" pz="3" rx="90" ry="90"/>
+	</level77>
+	<level78>
+		<entity number = "3" px="14" pz="6" rx="90" ry="-90"/>
+		<entity number = "4" px="8" pz="8" rx="0" ry="180"/>
+		<entity number = "5" px="18" pz="6" rx="90" ry="90"/>
+		<entity number = "7" px="3" pz="7" rx="0" ry="-90"/>
+	</level78>
+	<level79>
+		<entity number = "8" px="3" pz="5" rx="90" ry="180"/>
+		<entity number = "9" px="9" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="3" pz="1" rx="0" ry="0"/>
+	</level79>
+	<level80>
+		<entity number = "6" px="6" pz="4" rx="90" ry="0"/>
+		<entity number = "8" px="15" pz="5" rx="90" ry="180"/>
+		<entity number = "9" px="11" pz="5" rx="90" ry="-90"/>
+	</level80>
+	<level81>
+		<entity number = "2" px="8" pz="4" rx="0" ry="180"/>
+		<entity number = "5" px="8" pz="2" rx="0" ry="0"/>
+		<entity number = "6" px="18" pz="6" rx="90" ry="90"/>
+	</level81>
+	<level82>
+		<entity number = "1" px="6" pz="6" rx="0" ry="-90"/>
+		<entity number = "5" px="12" pz="4" rx="0" ry="180"/>
+	</level82>
+	<level83>
+		<entity number = "2" px="14" pz="8" rx="90" ry="0"/>
+		<entity number = "10" px="11" pz="5" rx="0" ry="180"/>
+	</level83>
+	<level84>
+		<entity number = "3" px="4" pz="2" rx="0" ry="0"/>
+		<entity number = "6" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="7" pz="7" rx="90" ry="0"/>
+	</level84>
+	<level85>
+		<entity number = "1" px="8" pz="4" rx="0" ry="-90"/>
+		<entity number = "5" px="12" pz="4" rx="90" ry="-90"/>
+		<entity number = "8" px="13" pz="5" rx="90" ry="-90"/>
+	</level85>
+	<level86>
+		<entity number = "7" px="9" pz="9" rx="90" ry="0"/>
+		<entity number = "8" px="5" pz="3" rx="90" ry="180"/>
+	</level86>
+	<level87>
+		<entity number = "2" px="8" pz="2" rx="90" ry="0"/>
+		<entity number = "3" px="12" pz="6" rx="90" ry="180"/>
+		<entity number = "8" px="3" pz="1" rx="90" ry="180"/>
+	</level87>
+	<level88>
+		<entity number = "3" px="10" pz="2" rx="0" ry="0"/>
+		<entity number = "7" px="5" pz="5" rx="90" ry="0"/>
+		<entity number = "10" px="3" pz="1" rx="0" ry="0"/>
+	</level88>
+	<level89>
+		<entity number = "8" px="3" pz="1" rx="90" ry="180"/>
+		<entity number = "9" px="17" pz="1" rx="90" ry="180"/>
+		<entity number = "10" px="11" pz="1" rx="90" ry="180"/>
+	</level89>
+	<level90>
+		<entity number = "3" px="2" pz="6" rx="90" ry="-90"/>
+		<entity number = "9" px="17" pz="5" rx="0" ry="-90"/>
+	</level90>
+	<level91>
+		<entity number = "5" px="10" pz="2" rx="0" ry="0"/>
+		<entity number = "7" px="17" pz="1" rx="0" ry="0"/>
+		<entity number = "8" px="15" pz="5" rx="90" ry="0"/>
+	</level91>
+	<level92>
+		<entity number = "7" px="13" pz="7" rx="90" ry="90"/>
+		<entity number = "8" px="5" pz="5" rx="90" ry="90"/>
+	</level92>
+	<level93>
+		<entity number = "4" px="12" pz="6" rx="90" ry="90"/>
+		<entity number = "8" px="7" pz="5" rx="0" ry="90"/>
+	</level93>
+	<level94>
+		<entity number = "1" px="12" pz="4" rx="90" ry="180"/>
+		<entity number = "4" px="6" pz="8" rx="90" ry="0"/>
+	</level94>
+	<level95>
+		<entity number = "3" px="8" pz="6" rx="90" ry="-90"/>
+		<entity number = "7" px="11" pz="7" rx="0" ry="180"/>
+	</level95>
+	<level96>
+		<entity number = "3" px="4" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="17" pz="5" rx="90" ry="90"/>
+		<entity number = "8" px="7" pz="7" rx="90" ry="0"/>
+	</level96>
+	<level97>
+		<entity number = "7" px="15" pz="7" rx="90" ry="180"/>
+		<entity number = "9" px="9" pz="5" rx="90" ry="-90"/>
+	</level97>
+	<level98>
+		<entity number = "2" px="12" pz="6" rx="90" ry="-90"/>
+		<entity number = "10" px="7" pz="5" rx="90" ry="0"/>
+	</level98>
+	<level99>
+		<entity number = "2" px="10" pz="2" rx="90" ry="180"/>
+		<entity number = "7" px="17" pz="1" rx="0" ry="0"/>
+		<entity number = "9" px="1" pz="3" rx="90" ry="-90"/>
+	</level99>
+	<level100>
+		<entity number = "4" px="2" pz="4" rx="90" ry="-90"/>
+		<entity number = "7" px="5" pz="1" rx="90" ry="180"/>
+		<entity number = "8" px="17" pz="1" rx="90" ry="180"/>
+	</level100>
+	<level101>
+		<entity number = "1" px="10" pz="2" rx="90" ry="180"/>
+		<entity number = "6" px="10" pz="8" rx="90" ry="180"/>
+	</level101>
+	<level102>
+		<entity number = "7" px="13" pz="5" rx="0" ry="180"/>
+		<entity number = "9" px="7" pz="5" rx="90" ry="180"/>
+	</level102>
+	<level103>
+		<entity number = "3" px="6" pz="8" rx="0" ry="0"/>
+		<entity number = "5" px="16" pz="2" rx="0" ry="0"/>
+	</level103>
+	<level104>
+		<entity number = "3" px="6" pz="6" rx="90" ry="180"/>
+		<entity number = "8" px="11" pz="3" rx="90" ry="180"/>
+	</level104>
+	<level105>
+		<entity number = "1" px="16" pz="2" rx="90" ry="180"/>
+		<entity number = "3" px="10" pz="6" rx="90" ry="180"/>
+		<entity number = "8" px="3" pz="1" rx="90" ry="180"/>
+	</level105>
+	<level106>
+		<entity number = "6" px="10" pz="2" rx="90" ry="180"/>
+		<entity number = "9" px="15" pz="5" rx="0" ry="180"/>
+		<entity number = "10" px="17" pz="1" rx="90" ry="180"/>
+	</level106>
+	<level107>
+		<entity number = "4" px="10" pz="8" rx="90" ry="180"/>
+		<entity number = "9" px="13" pz="5" rx="0" ry="180"/>
+	</level107>
+	<level108>
+		<entity number = "6" px="6" pz="8" rx="90" ry="180"/>
+		<entity number = "9" px="7" pz="5" rx="0" ry="180"/>
+	</level108>
+	<level109>
+		<entity number = "4" px="18" pz="4" rx="90" ry="90"/>
+		<entity number = "6" px="6" pz="6" rx="90" ry="180"/>
+		<entity number = "9" px="15" pz="1" rx="90" ry="180"/>
+	</level109>
+	<level110>
+		<entity number = "7" px="13" pz="7" rx="0" ry="-90"/>
+		<entity number = "10" px="3" pz="1" rx="90" ry="180"/>
+	</level110>
+	<level111>
+		<entity number = "4" px="10" pz="8" rx="0" ry="180"/>
+		<entity number = "7" px="1" pz="3" rx="0" ry="90"/>
+	</level111>
+	<level112>
+		<entity number = "7" px="1" pz="5" rx="90" ry="-90"/>
+		<entity number = "8" px="11" pz="5" rx="0" ry="90"/>
+	</level112>
+	<level113>
+		<entity number = "7" px="11" pz="3" rx="90" ry="0"/>
+		<entity number = "8" px="9" pz="9" rx="0" ry="180"/>
+	</level113>
+	<level114>
+		<entity number = "2" px="8" pz="8" rx="0" ry="0"/>
+		<entity number = "7" px="3" pz="9" rx="0" ry="180"/>
+		<entity number = "8" px="13" pz="9" rx="90" ry="0"/>
+		<entity number = "10" px="17" pz="7" rx="90" ry="-90"/>
+	</level114>
+	<level115>
+		<entity number = "7" px="11" pz="7" rx="0" ry="180"/>
+		<entity number = "10" px="13" pz="9" rx="90" ry="0"/>
+	</level115>
+	<level116>
+		<entity number = "7" px="5" pz="7" rx="90" ry="90"/>
+		<entity number = "8" px="15" pz="5" rx="90" ry="0"/>
+		<entity number = "9" px="1" pz="7" rx="0" ry="90"/>
+	</level116>
+	<level117>
+		<entity number = "2" px="10" pz="8" rx="0" ry="180"/>
+		<entity number = "8" px="9" pz="1" rx="90" ry="180"/>
+	</level117>
+	<level118>
+		<entity number = "1" px="4" pz="2" rx="0" ry="0"/>
+		<entity number = "8" px="11" pz="1" rx="0" ry="0"/>
+	</level118>
+	<level119>
+		<entity number = "2" px="12" pz="2" rx="0" ry="0"/>
+		<entity number = "7" px="7" pz="7" rx="90" ry="180"/>
+	</level119>
+	<level120>
+		<entity number = "3" px="14" pz="6" rx="0" ry="0"/>
+		<entity number = "9" px="5" pz="5" rx="90" ry="-90"/>
+	</level120>
+</levels>
