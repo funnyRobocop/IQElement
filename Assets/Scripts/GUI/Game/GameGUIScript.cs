@@ -16,7 +16,7 @@ public class GameGUIScript : MonoBehaviour {
 	public TextMeshProUGUI skip; // надпись пропуска уровня
 	public Color[] colorsList; // цвета меняющееся в зависимости от навыка
 	public string[] skillsList; // навыки
-
+	public GameObject adBtn;
 
 	void Awake()
 	{
@@ -44,5 +44,16 @@ public class GameGUIScript : MonoBehaviour {
 	private int CalculateLevelSkill ()
 	{
 		return (int) ((MainGameScript.currentLevel - 1) / LEVELS_FOR_ONE_SKILL);
+	}
+
+	public void ShowAdBtn()
+	{
+		if (MainGameScript.currentLevel != MainGameScript.openedLevel)
+            return;
+		adBtn.SetActive(true);
+	}
+	public void HideAdBtn()
+	{
+		adBtn.SetActive(false);
 	}
 }

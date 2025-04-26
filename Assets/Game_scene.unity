@@ -21600,6 +21600,7 @@ MonoBehaviour:
   - EXPERT
   - MASTER
   - WIZARD
+  adBtn: {fileID: 1314016757}
 --- !u!1 &1045133712
 GameObject:
   m_ObjectHideFlags: 0

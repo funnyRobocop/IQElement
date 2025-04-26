@@ -46,7 +46,7 @@ public class AdsRewarded : MonoBehaviour
 
     public void Start()
     {
-        RequestRewardedAd();
+        //RequestRewardedAd();
     }
 
     public void RequestRewardedAd()

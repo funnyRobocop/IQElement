@@ -10,7 +10,7 @@ public class MenuGUIScript : MonoBehaviour {
 	private const int PAGE_COUNT = 5;
 	private const int TILE_ON_PAGE_COUNT = 24;
 
-	private MyGooglePlay googlePlay;	
+	//private MyGooglePlay googlePlay;	
 	public GameObject playButton;
 	public GameObject restartButton;
 	public GameObject soundButton;
@@ -34,7 +34,7 @@ public class MenuGUIScript : MonoBehaviour {
 	void Awake()
 	{
 		instance = this;
-		googlePlay = new MyGooglePlay ();
+		//googlePlay = new MyGooglePlay ();
 	}
 
 	public void Update()
@@ -211,6 +211,6 @@ public class MenuGUIScript : MonoBehaviour {
 	  
 	public void GooglePlayPress()
 	{
-		googlePlay.ShowRecords();
+		//googlePlay.ShowRecords();
 	}
 }
