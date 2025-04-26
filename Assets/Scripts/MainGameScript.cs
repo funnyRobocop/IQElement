@@ -38,6 +38,8 @@ public class MainGameScript : MonoBehaviour
 		GameGUIScript.instance.ChangeGameGUIPropertiesByNumberOfLevel ();
 
 		Input.multiTouchEnabled = false;
+
+		AdsInterstitial.Instance.ShowInterstitial();
 	}
 	
 	// проверяет все ли детали корректно установлены и если да то запускает проверку на пустые ячейки
