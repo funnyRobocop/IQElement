@@ -42,9 +42,14 @@ public class MenuGUIScript : MonoBehaviour {
 		// переход на экран меню 
 		if (Input.GetKey(KeyCode.Escape))
 		{
-			if (levelsPanel.activeInHierarchy)
-				MenuGUIScript.instance.ChangeScreenFromChooseLevelToMenu();
+			OnBackClick();
 		}
+	}
+
+	public void OnBackClick()
+	{
+		if (levelsPanel.activeInHierarchy)
+			MenuGUIScript.instance.ChangeScreenFromChooseLevelToMenu();
 	}
 
 	public void ShowTutor(bool value)

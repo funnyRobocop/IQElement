@@ -69,10 +69,15 @@ public class SelectorScript : MonoBehaviour {
 		// переход на экран меню 
 		if (Input.GetKey(KeyCode.Escape))
 		{
-			MenuGUIScript.instance.ChangeScreenFromGameToMenu();
-			// отключение сообщения о невеном решении уровня, так как оно может быть включено
-			MenuGUIScript.instance.emptyHolesPanel.SetActive(false);
+			OnBackClick();
 		}
+	}
+
+	public void OnBackClick()
+	{
+		MenuGUIScript.instance.ChangeScreenFromGameToMenu();
+		// отключение сообщения о невеном решении уровня, так как оно может быть включено
+		MenuGUIScript.instance.emptyHolesPanel.SetActive(false);
 	}
 
 	public void SwitchAction()

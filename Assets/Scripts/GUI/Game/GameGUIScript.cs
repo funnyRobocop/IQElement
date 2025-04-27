@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using TMPro;
 
@@ -13,6 +14,7 @@ public class GameGUIScript : MonoBehaviour {
 	public static GameGUIScript instance;
 	public TextMeshProUGUI number; // текст с номером уровня
 	public TextMeshProUGUI level; // надпись скилла
+	public Image back; // стрелка
 	public TextMeshProUGUI skip; // надпись пропуска уровня
 	public Color[] colorsList; // цвета меняющееся в зависимости от навыка
 	public string[] skillsList; // навыки
@@ -37,6 +39,7 @@ public class GameGUIScript : MonoBehaviour {
 		level.color = colorsList [levelSkill];
 		number.color = colorsList [levelSkill];
 		skip.color = colorsList[levelSkill];
+		back.color = colorsList[levelSkill];
 
 		if (Application.systemLanguage == SystemLanguage.Russian)
 			levelSkill += 5;
