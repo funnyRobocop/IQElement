@@ -6,13 +6,15 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
     implementation 'androidx.lifecycle:lifecycle-process:2.4.1' // Assets/YandexMobileAds/Editor/YandexMobileadsDependencies.xml:12
+    implementation 'com.unity3d.mediation:mediation-sdk:[0.5,0.6[' // Assets/Editor/MediationAdapterDependencies.xml:8
+    implementation 'com.unity3d.mediation:unityads-adapter:[0.5,0.6[' // Assets/Editor/MediationAdapterDependencies.xml:10
     implementation 'com.yandex.android:mobileads:7.12.1' // Assets/YandexMobileAds/Editor/YandexMobileadsDependencies.xml:7
 // Android Resolver Dependencies End
 **DEPS**}
 
 // Android Resolver Exclusions Start
 android {
-  packaging {
+  packagingOptions {
       exclude ('/lib/armeabi/*' + '*')
       exclude ('/lib/mips/*' + '*')
       exclude ('/lib/mips64/*' + '*')

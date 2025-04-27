@@ -58,9 +58,16 @@ public class GameGUIScript : MonoBehaviour {
 		if (MainGameScript.currentLevel != MainGameScript.openedLevel)
             return;
 		adBtn.SetActive(true);
+		adBtn.GetComponent<Button>().onClick.AddListener(OnAdBtnClick);
 	}
 	public void HideAdBtn()
 	{
 		adBtn.SetActive(false);
+	}
+
+	public void OnAdBtnClick()
+	{
+		HideAdBtn();
+		AdsRewarded.Instance.ShowRewardedAd();
 	}
 }
