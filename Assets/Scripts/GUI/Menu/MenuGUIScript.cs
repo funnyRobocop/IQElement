@@ -164,13 +164,13 @@ public class MenuGUIScript : MonoBehaviour {
 	{
 		if (MainGameScript.soundOn) 
 		{ 
-			soundText.text = "SOUND: ON";
+			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВКЛ" : "SOUND: ON";
 			soundText.color = soundColor[0];
 			Audio.instance.VolumeOn();
 		}
 		else 
 		{ 
-			soundText.text = "SOUND: OFF";
+			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВЫКЛ" : "SOUND: OFF";
 			soundText.color = soundColor[1];
 			Audio.instance.VolumeOff();
 		}
@@ -193,7 +193,7 @@ public class MenuGUIScript : MonoBehaviour {
 	{
 		if (MainGameScript.soundOn) 
 		{ 
-			soundText.text = "SOUND: OFF";
+			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВЫКЛ" : "SOUND: OFF";
 			soundText.color = soundColor[1];
 			Audio.instance.VolumeOff();
 			MainGameScript.soundOn = false;
@@ -201,7 +201,7 @@ public class MenuGUIScript : MonoBehaviour {
 		}
 		else 
 		{ 
-			soundText.text = "SOUND: ON";
+			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВКЛ" : "SOUND: ON";
 			soundText.color = soundColor[0];
 			Audio.instance.VolumeOn();
 			MainGameScript.soundOn = true; 

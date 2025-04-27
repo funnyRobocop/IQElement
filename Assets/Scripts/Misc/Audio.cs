@@ -41,9 +41,11 @@ public class Audio : MonoBehaviour {
 	
 	public void VolumeOff () {
 		audioSource.volume = 0;
+		audioSourceWrong.volume = 0;
 	}
 	
 	public void VolumeOn () {
 		audioSource.volume = 1;
+		audioSourceWrong.volume = 1;
 	}
 }

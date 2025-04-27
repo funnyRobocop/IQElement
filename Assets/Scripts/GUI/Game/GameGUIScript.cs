@@ -37,6 +37,10 @@ public class GameGUIScript : MonoBehaviour {
 		level.color = colorsList [levelSkill];
 		number.color = colorsList [levelSkill];
 		skip.color = colorsList[levelSkill];
+
+		if (Application.systemLanguage == SystemLanguage.Russian)
+			levelSkill += 5;
+
 		level.text = skillsList [levelSkill];		
 	}
 

@@ -21969,6 +21969,11 @@ MonoBehaviour:
   - EXPERT
   - MASTER
   - WIZARD
+  - "\u041D\u041E\u0412\u0418\u0427\u041E\u041A"
+  - "\u042E\u041D\u0418\u041E\u0420"
+  - "\u042D\u041A\u0421\u041F\u0415\u0420\u0422"
+  - "\u041C\u0410\u0421\u0422\u0415\u0420"
+  - "\u0413\u0415\u041D\u0418\u0419"
   adBtn: {fileID: 1314016757}
 --- !u!1 &1045133712
 GameObject:
