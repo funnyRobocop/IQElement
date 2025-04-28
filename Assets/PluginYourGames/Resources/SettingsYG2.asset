@@ -157,7 +157,7 @@ MonoBehaviour:
   ServerTime:
     serverTime: 1721201231000
   Storage:
-    saveLocal: 0
+    saveLocal: 1
     saveCloud: 1
     saveCloudInterval: 0
     flush: 0

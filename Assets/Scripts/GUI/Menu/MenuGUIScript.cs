@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
+using YG;
 
 //---------------------
 // Скрипт для меню игры
@@ -57,8 +58,13 @@ public class MenuGUIScript : MonoBehaviour {
 		tutorPanel.SetActive(value);
 		tutorHighligtPanel.SetActive(value);
 
+#if UNITY_WEBGL
+		if (!value)
+			YG2.saves.Tutor = 1;
+#else
 		if (!value)
 			PlayerPrefs.SetInt("Tutor", 1);
+#endif
 	}
 	
 	public void ChangeScreenFromGameToMenu()

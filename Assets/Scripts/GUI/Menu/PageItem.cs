@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using YG;
 
 public class PageItem : MonoBehaviour
 {
@@ -16,8 +17,14 @@ public class PageItem : MonoBehaviour
 
 
     private void Awake()
-    {
+    {        
+#if UNITY_WEBGL
+		var skipStr = string.Empty;
+		if (YG2.saves.skip != null)
+			skipStr = YG2.saves.skip;
+#else
         var skipStr = PlayerPrefs.GetString("skip", string.Empty);
+#endif
 
         var skipStrList = skipStr.Split('_').ToList();
 

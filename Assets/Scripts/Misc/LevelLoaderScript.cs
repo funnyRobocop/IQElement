@@ -79,7 +79,13 @@ public class LevelLoaderScript : MonoBehaviour
 	public void SkipLevel()
     {
 		GameGUIScript.instance.HideAdBtn();
+#if UNITY_WEBGL
+		var skipStr = string.Empty;
+		if (YG2.saves.skip != null)
+			skipStr = YG2.saves.skip;
+#else
         var skipStr = PlayerPrefs.GetString("skip", string.Empty);
+#endif
 
         var skipStrList = skipStr.Split('_').ToList();
 
@@ -100,16 +106,32 @@ public class LevelLoaderScript : MonoBehaviour
             newSkipStrList += item.ToString() + "_";
         }
 
+#if UNITY_WEBGL
+        YG2.saves.skip = newSkipStrList;
+		YG2.SaveProgress();
+#else
         PlayerPrefs.SetString("skip", newSkipStrList);
+#endif
 
         MainGameScript.openedLevel++;
         MainGameScript.currentLevel++;
-        PlayerPrefs.SetInt("level", MainGameScript.openedLevel);		
+#if UNITY_WEBGL
+        YG2.saves.level = MainGameScript.openedLevel;
+		YG2.SaveProgress();
+#else
+        PlayerPrefs.SetInt("level", MainGameScript.openedLevel);
+#endif		
     }
 	
 	public static void UndoSkipLevel(int levelNumber)
     {
+#if UNITY_WEBGL
+		var skipStr = string.Empty;
+		if (YG2.saves.skip != null)
+			skipStr = YG2.saves.skip;
+#else
         var skipStr = PlayerPrefs.GetString("skip", string.Empty);
+#endif	
 
         var skipStrList = skipStr.Split('_').ToList();
 
@@ -131,7 +153,12 @@ public class LevelLoaderScript : MonoBehaviour
             newSkipStrList += item.ToString() + "_";
         }
 
+#if UNITY_WEBGL
+        YG2.saves.skip = newSkipStrList;
+		YG2.SaveProgress();
+#else
         PlayerPrefs.SetString("skip", newSkipStrList);
+#endif
     }
 
 	// загружаем данные для уровня из файла

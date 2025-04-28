@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.IO;
+using YG;
 
 //---------------------------------------------------------------------
 // Главный скрипт игры. Загружает настройки, хранит данные всех деталей,
@@ -88,7 +89,18 @@ public class MainGameScript : MonoBehaviour
 	}
 
 	private void CheckFirstRun()
-	{
+	{    
+#if UNITY_WEBGL
+		if (LevelLoaderScript.alreadyRuned) 
+		{
+			if (currentLevel == 1 && YG2.saves.Tutor == 0)
+            {
+				MenuGUIScript.instance.ShowTutor(true);
+            }
+
+			return;
+		}
+#else
 		if (LevelLoaderScript.alreadyRuned) 
 		{
 			if (currentLevel == 1 && PlayerPrefs.GetInt("Tutor", 0) == 0)
@@ -98,6 +110,7 @@ public class MainGameScript : MonoBehaviour
 
 			return;
 		}
+#endif
 
 		// при самом первом запуске открывается меню и нельзя перейти к игровому экрану
 		SelectorScript.instance.enabled = false;
@@ -126,7 +139,11 @@ public class MainGameScript : MonoBehaviour
 	// открытый уровень загружается из Preferences, текущий уровень тоже если загружается не из меню выбора уровней
 	private void LoadLevelsNumberSettings ()
 	{
+#if UNITY_WEBGL
+		openedLevel = YG2.saves.level;
+#else
 		openedLevel = PlayerPrefs.GetInt ("level");
+#endif
 		if (openedLevel == 0) 
 		{ 
 			openedLevel = 1; 
@@ -151,7 +168,12 @@ public class MainGameScript : MonoBehaviour
 	{
 		if (openedLevel < MainGameScript.currentLevel) 
 		{ 
+#if UNITY_WEBGL
+			YG2.saves.level = MainGameScript.currentLevel;
+			YG2.SaveProgress();
+#else
 			PlayerPrefs.SetInt ("level", MainGameScript.currentLevel); 
+#endif
 			openedLevel = MainGameScript.currentLevel;
 		}
 	}
