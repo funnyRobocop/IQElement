@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
 using System.Linq;
+using YG;
 
 //-----------------------------------------
 // Скрипт для загрузки уровней из xml файла
@@ -27,6 +28,7 @@ public class LevelLoaderScript : MonoBehaviour
 	void Start()
 	{
 		GameGUIScript.instance.HideAdBtn();
+		GameGUIScript.instance.ShowAdBtn();
 		// при первом запуске не нужно загружать детали, так как загружается только меню
 		if (alreadyRuned)
 		{
@@ -37,7 +39,7 @@ public class LevelLoaderScript : MonoBehaviour
 			rewardedAds.OnUnityAdsShowCompleted += SkipLevel;
 			rewardedAds.OnUnityAdsShowCompleted += menuGUIScript.ChangeScreenFromNextToChooseLevel;*/
 #if UNITY_WEBGL
-		//Todo
+			YG2.InterstitialAdvShow();
 #else
 			AdsInterstitial.Instance.ShowInterstitial();
 			AdsRewarded.Instance.RequestRewardedAd();

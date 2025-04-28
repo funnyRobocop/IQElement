@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using TMPro;
+using YG;
 
 
 //------------------------------------------------------------------
@@ -19,6 +20,7 @@ public class GameGUIScript : MonoBehaviour {
 	public Color[] colorsList; // цвета меняющееся в зависимости от навыка
 	public string[] skillsList; // навыки
 	public GameObject adBtn;
+	public LevelLoaderScript levelLoader;
 
 	void Awake()
 	{
@@ -69,7 +71,11 @@ public class GameGUIScript : MonoBehaviour {
 	{
 		HideAdBtn();
 #if UNITY_WEBGL
-		//Todo
+		YG2.RewardedAdvShow("skip", () =>
+		{
+			levelLoader.SkipLevel();
+			MenuGUIScript.instance.ChangeScreenFromNextToChooseLevel();
+		});
 #else
 		AdsRewarded.Instance.ShowRewardedAd();
 #endif

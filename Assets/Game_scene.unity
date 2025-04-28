@@ -22142,6 +22142,7 @@ MonoBehaviour:
   - "\u041C\u0410\u0421\u0422\u0415\u0420"
   - "\u0413\u0415\u041D\u0418\u0419"
   adBtn: {fileID: 1314016757}
+  levelLoader: {fileID: 1042859394}
 --- !u!1 &1045133712
 GameObject:
   m_ObjectHideFlags: 0
