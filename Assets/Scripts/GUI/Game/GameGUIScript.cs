@@ -68,6 +68,10 @@ public class GameGUIScript : MonoBehaviour {
 	public void OnAdBtnClick()
 	{
 		HideAdBtn();
+#if UNITY_WEBGL
+		//Todo
+#else
 		AdsRewarded.Instance.ShowRewardedAd();
+#endif
 	}
 }

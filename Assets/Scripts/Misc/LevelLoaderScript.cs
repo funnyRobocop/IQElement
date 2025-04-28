@@ -36,13 +36,16 @@ public class LevelLoaderScript : MonoBehaviour
 			/*rewardedAds.Init();
 			rewardedAds.OnUnityAdsShowCompleted += SkipLevel;
 			rewardedAds.OnUnityAdsShowCompleted += menuGUIScript.ChangeScreenFromNextToChooseLevel;*/
-
+#if UNITY_WEBGL
+		//Todo
+#else
 			AdsInterstitial.Instance.ShowInterstitial();
 			AdsRewarded.Instance.RequestRewardedAd();
 			AdsRewarded.Instance.OnSuccess += SkipLevel;
 			AdsRewarded.Instance.OnSuccess += menuGUIScript.ChangeScreenFromNextToChooseLevel;
 			AdsRewarded.Instance.OnLoaded += GameGUIScript.instance.ShowAdBtn;
 			AdsRewarded.Instance.OnFail += GameGUIScript.instance.HideAdBtn;
+#endif
 		}
 		else
 		{
@@ -52,6 +55,9 @@ public class LevelLoaderScript : MonoBehaviour
 
 	void OnDestroy()
 	{
+#if UNITY_WEBGL
+		//Todo
+#else
 		if (AdsRewarded.Instance == null)
 			return;
 
@@ -65,6 +71,7 @@ public class LevelLoaderScript : MonoBehaviour
 			AdsRewarded.Instance.OnLoaded -= GameGUIScript.instance.ShowAdBtn;
 			AdsRewarded.Instance.OnFail -= GameGUIScript.instance.HideAdBtn;
 		}
+#endif
 	}
 	
 	public void SkipLevel()
