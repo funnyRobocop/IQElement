@@ -174,14 +174,22 @@ public class MenuGUIScript : MonoBehaviour {
 	public void SetMusicButtonProperties()
 	{
 		if (MainGameScript.soundOn) 
-		{ 
+		{
+#if UNITY_WEBGL
+			soundText.text = YG2.lang == "ru" ? "ЗВУК: ВКЛ" : "SOUND: ON";
+#else
 			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВКЛ" : "SOUND: ON";
+#endif
 			soundText.color = soundColor[0];
 			Audio.instance.VolumeOn();
 		}
 		else 
 		{ 
+#if UNITY_WEBGL
+			soundText.text = YG2.lang == "ru" ? "ЗВУК: ВЫКЛ" : "SOUND: OFF";
+#else
 			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВЫКЛ" : "SOUND: OFF";
+#endif
 			soundText.color = soundColor[1];
 			Audio.instance.VolumeOff();
 		}
@@ -204,7 +212,11 @@ public class MenuGUIScript : MonoBehaviour {
 	{
 		if (MainGameScript.soundOn) 
 		{ 
+#if UNITY_WEBGL
+			soundText.text = YG2.lang == "ru" ? "ЗВУК: ВЫКЛ" : "SOUND: OFF";
+#else
 			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВЫКЛ" : "SOUND: OFF";
+#endif
 			soundText.color = soundColor[1];
 			Audio.instance.VolumeOff();
 			MainGameScript.soundOn = false;
@@ -212,7 +224,11 @@ public class MenuGUIScript : MonoBehaviour {
 		}
 		else 
 		{ 
+#if UNITY_WEBGL
+			soundText.text = YG2.lang == "ru" ? "ЗВУК: ВКЛ" : "SOUND: ON";
+#else
 			soundText.text = Application.systemLanguage == SystemLanguage.Russian ? "ЗВУК: ВКЛ" : "SOUND: ON";
+#endif
 			soundText.color = soundColor[0];
 			Audio.instance.VolumeOn();
 			MainGameScript.soundOn = true; 

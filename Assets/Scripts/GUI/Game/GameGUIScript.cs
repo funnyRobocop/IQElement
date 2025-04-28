@@ -43,8 +43,13 @@ public class GameGUIScript : MonoBehaviour {
 		skip.color = colorsList[levelSkill];
 		back.color = colorsList[levelSkill];
 
+#if UNITY_WEBGL
+		if (YG2.lang == "ru")
+			levelSkill += 5;
+#else
 		if (Application.systemLanguage == SystemLanguage.Russian)
 			levelSkill += 5;
+#endif
 
 		level.text = skillsList [levelSkill];		
 	}
