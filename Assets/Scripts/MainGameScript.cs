@@ -131,7 +131,7 @@ public class MainGameScript : MonoBehaviour
 		{ 
 			openedLevel = 1; 
 		}
-
+		//openedLevel = 100;
 		if (MainGameScript.currentLevel == 0) 
 		{ 
 			MainGameScript.currentLevel = openedLevel; 
