@@ -703,7 +703,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: 
     Standalone: LEVELPLAY_DEPENDENCIES_INSTALLED
-    WebGL: YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;NJSON_YG2
+    WebGL: YandexGamesPlatform_yg;PLUGIN_YG_2;TMP_YG2;NJSON_YG2;InterstitialAdv_yg;RewardedAdv_yg;EnvirData_yg;Authorization_yg;Storage_yg;RedefinePlayerPrefs_yg;Localization_yg;AutoTranslateLangs_yg;ServerTime_yg;Fullscreen_yg;Clipboard_yg;QuitGameEvent_yg;GameLabel_yg;Flags_yg
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
