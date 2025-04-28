@@ -119,6 +119,8 @@ public class MainGameScript : MonoBehaviour
 		{ 
 			soundOn = true; 
 		}
+
+		MenuGUIScript.instance.SetMusicButtonProperties();
 	}
 
 	// открытый уровень загружается из Preferences, текущий уровень тоже если загружается не из меню выбора уровней
@@ -129,7 +131,7 @@ public class MainGameScript : MonoBehaviour
 		{ 
 			openedLevel = 1; 
 		}
-
+		//openedLevel = 100;
 		if (MainGameScript.currentLevel == 0) 
 		{ 
 			MainGameScript.currentLevel = openedLevel; 

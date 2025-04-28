@@ -26,6 +26,7 @@ public class LevelLoaderScript : MonoBehaviour
 
 	void Start()
 	{
+		GameGUIScript.instance.HideAdBtn();
 		// при первом запуске не нужно загружать детали, так как загружается только меню
 		if (alreadyRuned)
 		{
@@ -35,6 +36,13 @@ public class LevelLoaderScript : MonoBehaviour
 			/*rewardedAds.Init();
 			rewardedAds.OnUnityAdsShowCompleted += SkipLevel;
 			rewardedAds.OnUnityAdsShowCompleted += menuGUIScript.ChangeScreenFromNextToChooseLevel;*/
+
+			AdsInterstitial.Instance.ShowInterstitial();
+			AdsRewarded.Instance.RequestRewardedAd();
+			AdsRewarded.Instance.OnSuccess += SkipLevel;
+			AdsRewarded.Instance.OnSuccess += menuGUIScript.ChangeScreenFromNextToChooseLevel;
+			AdsRewarded.Instance.OnLoaded += GameGUIScript.instance.ShowAdBtn;
+			AdsRewarded.Instance.OnFail += GameGUIScript.instance.HideAdBtn;
 		}
 		else
 		{
@@ -44,12 +52,24 @@ public class LevelLoaderScript : MonoBehaviour
 
 	void OnDestroy()
 	{
-		/*rewardedAds.OnUnityAdsShowCompleted -= SkipLevel;
-		rewardedAds.OnUnityAdsShowCompleted -= menuGUIScript.ChangeScreenFromNextToChooseLevel;*/
+		if (AdsRewarded.Instance == null)
+			return;
+
+		AdsRewarded.Instance.OnSuccess -= SkipLevel;
+
+		if (menuGUIScript != null)
+			AdsRewarded.Instance.OnSuccess -= menuGUIScript.ChangeScreenFromNextToChooseLevel;
+
+		if (GameGUIScript.instance != null)
+		{
+			AdsRewarded.Instance.OnLoaded -= GameGUIScript.instance.ShowAdBtn;
+			AdsRewarded.Instance.OnFail -= GameGUIScript.instance.HideAdBtn;
+		}
 	}
 	
 	public void SkipLevel()
     {
+		GameGUIScript.instance.HideAdBtn();
         var skipStr = PlayerPrefs.GetString("skip", string.Empty);
 
         var skipStrList = skipStr.Split('_').ToList();
@@ -75,7 +95,7 @@ public class LevelLoaderScript : MonoBehaviour
 
         MainGameScript.openedLevel++;
         MainGameScript.currentLevel++;
-        PlayerPrefs.SetInt("level", MainGameScript.openedLevel);
+        PlayerPrefs.SetInt("level", MainGameScript.openedLevel);		
     }
 	
 	public static void UndoSkipLevel(int levelNumber)
